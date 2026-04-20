@@ -1,0 +1,2 @@
+"""HowManyDegrees package."""
+

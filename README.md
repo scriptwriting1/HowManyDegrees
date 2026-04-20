@@ -37,7 +37,20 @@ python weather_gui.py
 
 Por padrão, os arquivos são gravados em `out/weather.csv` e `out/weather.txt`.
 
-No GitHub, você encontra exemplos em `out/weather.csv` e `out/weather.txt`.
+### Observação sobre `out/` (dados de exemplo)
+
+Este repositório já inclui `out/weather.csv` e `out/weather.txt` com **dados de teste/exemplo** de propósito,
+para quem estiver visualizando poder entender rapidamente o formato da saída sem precisar rodar nada.
+
+Quando você rodar o programa, ele **não sobrescreve** os arquivos: ele faz **append** (adiciona novas linhas no final).
+Assim dá para comparar claramente:
+
+- o que já estava no repositório (meus testes/exemplos)
+- o que foi gerado por você ao executar o script/GUI
+
+Se preferir gerar apenas seus próprios registros, basta **remover as linhas de teste/exemplo** desses arquivos antes de executar.
+
+Mais detalhes em `out/README.md`.
 
 O CSV terá colunas como:
 
